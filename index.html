@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Form</title>
+	<noscript>This web page does not have javascript enabled.</noscript>
+</head>
+<body>
+	<h1>The Form</h1>
+	<!-- Links -->
+	<a href="resume.html">Resume</a>
+	<a href="blog.html">Blog</a>
+	<!-- Form table -->
+	<form name="Contact" action="analysis.php" method="POST" novalidate>
+	<table>
+		<thead>
+			<tr>
+				<th>Subcribe to be updated</th>
+			</tr>
+		</thead>
+		<tbody>
+			<!-- Inputs -->
+			<tr>
+				<td>
+					<!-- Name -->
+					<label>Name</label>
+					<input type="text" name="name" placeholder="Your Name" />
+				</td>
+				<td>
+					<!-- Email -->
+					<label>Email</label>
+					<input type="email" name="email address" placeholder="Your Email Address" />
+				</td>
+				<td>
+					<!-- Subscribe -->
+					<label>Subscribe</label>
+					<input type="checkbox" name="subscribe" checked />
+				</td>
+				<td>
+					<!-- Business list -->
+					<label>Business</label>
+					<select>
+						<option>Choose from list</option>
+						<option>Academic</option>
+						<option>Agriculture</option>
+						<option>Arts</option>
+						<option>Banking</option>
+						<option>Business Administration</option>
+						<option>Data Analysis</option>
+						<option>E-Commerce</option>
+						<option>Engineering</option>
+						<option>Financial</option>
+						<option>Government</option>
+						<option>Industrial</option>
+						<option>Information technology</option>
+						<option>Insurance</option>
+						<option>Law</option>
+						<option>Manufacturing</option>
+						<option>Marketing/PR</option>
+						<option>Products</option>
+						<option>Publishing</option>
+						<option>Real Estate</option>
+						<option>Restaurant</option>
+						<option>Sales</option>
+						<option>Security</option>
+						<option>Software</option>
+						<option>Technology</option>
+					</select>
+				</td>
+				<!-- Comment field -->
+				<td >
+					<label>Comments</label>
+					<textarea></textarea>
+				</td>
+			</tr>
+			<tr>
+				<!-- Submit button -->
+				<td>
+					<label>Submit</label>
+					<input type="submit" value="submit" />
+		</tbody>
+	</table>
+</body>
+</html>
